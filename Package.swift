@@ -13,7 +13,7 @@ let package = Package(
     dependencies: [
         .package(name: "CommonMark",
                  url: "https://github.com/val-verde/CommonMark.git",
-                 .branch("val-verde-mainline")),
+                 .branch("val-verde-mainline-next")),
     ],
     targets: [
         .target(
