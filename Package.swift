@@ -12,8 +12,8 @@ let package = Package(
     ],
     dependencies: [
         .package(name: "CommonMark",
-                 url: "https://github.com/SwiftDocOrg/CommonMark.git",
-                 .upToNextMinor(from: "0.5.0")),
+                 url: "https://github.com/val-verde/CommonMark.git",
+                 .branch("val-verde-mainline")),
     ],
     targets: [
         .target(
